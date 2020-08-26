@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app.css" />
+    <script src="https://kit.fontawesome.com/b155107641.js"></script>
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center"
+      id="head-section"
+    >
+      <h5 class="font-weight-bolder">
+        <i class="fa fa-calendar" aria-hidden="true"></i> Google Calendar API
+        Integration
+      </h5>
+    </div>
+    <div class="container mt-5 p-5 border rounded shadow-sm" id="instruction">
+      <h2 class="text-center mb-2">
+        <i class="fa fa-info-circle" aria-hidden="true"></i> Instructions
+      </h2>
+      <hr />
+      <ul>
+        <li>
+          Use your google client ID, secret ID and refresh token in creating
+          authClient and setting credentials.
+        </li>
+        <li>You can create events with start and end time.</li>
+        <li>Created events will be added to your calendar.</li>
+        <li>The time is in 24 hour format so for 1PM select 13 as hours.</li>
+        <li>
+          Entering the email of a person will send the event invitation to that
+          person.
+        </li>
+        <li>
+          In case you don't want to invite anyone on that event just put your
+          email.
+        </li>
+      </ul>
+      <div class="d-flex justify-content-center align-items-center landing-btn">
+        <a href="/add-events" class="btn btn-block btn-primary landing-btn-a"
+          >Let's go
+          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
