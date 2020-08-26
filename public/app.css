@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: "Assistant", sans-serif;
+}
+
+li {
+  letter-spacing: 1px;
+}
+#head-section {
+  background-color: #4d3300;
+  height: 10vh;
+  letter-spacing: 2px;
+}
+#instruction {
+  background-color: rgb(179, 119, 0);
+  width: 60%;
+  line-height: 30px;
+}
+.landing-btn {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(51, 33, 0);
+  color: white;
+}
+.landing-btn-a {
+  background-color: rgb(51, 33, 0);
+  border: none;
+}
+.landing-btn-a:hover {
+  background-color: #805300;
+}
+
+.index-btn {
+  background-color: rgb(51, 33, 0);
+  color: white;
+}
+.jumbotron {
+  background-color: rgb(179, 119, 0);
+}
+.massege-btn {
+  background-color: rgb(51, 33, 0);
+  color: white;
+  width: 200px;
+}
+#form-div {
+  background-color: rgb(179, 119, 0);
+  width: 50%;
+}
+
+hr {
+  background-color: white;
+}
+label {
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+input {
+  letter-spacing: 1px;
+}
+
+/* form {
+  width: 80%;
+  margin: auto;
+  background-color: pink;
+} */
+.btn {
+  background-color: rgb(51, 33, 0);
+  border: none;
+  letter-spacing: 2px;
+}
+.btn:hover {
+  background-color: #805300;
+}
+@media screen and (max-width: 768px) {
+  #instruction {
+    width: 90%;
+  }
+  .landing-btn {
+    width: 80%;
+  }
+  #form-div {
+    width: 95%;
+  }
+  #head-section {
+    padding: 10px;
+  }
+}
