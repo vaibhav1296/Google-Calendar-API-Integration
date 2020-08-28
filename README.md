@@ -8,8 +8,6 @@ Some images of the Calendar API Integration
 
 ![ScreenShot](https://i.imgur.com/D81ogwx.png)
 
-![ScreenShot](https://i.imgur.com/bNQPhZA.png)
-
 ![ScreenShot](https://i.imgur.com/D8ajzkp.png)
 
 ![ScreenShot](https://i.imgur.com/UZHHrZs.png)
