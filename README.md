@@ -1,6 +1,6 @@
 If you get FetchError and reason: connect ETIMEDOUT 172.217.31.10:443 then it is a known issue, you can check it here
 
-[GitHub](https://github.com/googleapis/google-auth-library-nodejs/issues/283)
+[ETIMEOUT OR FETCH ERROR](https://github.com/googleapis/google-auth-library-nodejs/issues/283)
 
 Some images of the Calendar API Integration
 
