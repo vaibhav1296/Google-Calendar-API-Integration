@@ -6,7 +6,7 @@ Some images of the Calendar API Integration
 
 ![ScreenShot](https://i.imgur.com/WKF8tqd.png)
 
-![ScreenShot](https://i.imgur.com/5pyb0ZS.png)
+![ScreenShot](https://i.imgur.com/D81ogwx.png)
 
 ![ScreenShot](https://i.imgur.com/bNQPhZA.png)
 
